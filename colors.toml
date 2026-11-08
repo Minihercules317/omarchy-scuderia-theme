@@ -1,0 +1,38 @@
+mode = "dark"
+
+# Rosso Corsa for highlights, deep race red for selections
+accent = "#ff2800"
+selection = "#6e0a0a"
+muted = "#6f5c5c"
+
+# Carbon fibre
+background = "#0e0c0c"
+dark_background = "#0a0909"
+darker_background = "#050404"
+lighter_background = "#1d1919"
+
+# Livery white
+foreground = "#f2ecec"
+dark_foreground = "#7c6d6d"
+light_foreground = "#d6caca"
+bright_foreground = "#ffffff"
+
+# Window borders: Rosso Corsa -> race red -> Giallo Modena
+hyprland_active_border = "rgba(ff2800ee) rgba(dc0000ee) rgba(ffcf00ee) 45deg"
+hyprland_inactive_border = "rgba(3a1414aa)"
+
+red = "#e8002d"
+yellow = "#ffcf00"
+orange = "#ff7a1a"
+green = "#2fae5e"
+cyan = "#4fb8c9"
+blue = "#3d7be0"
+magenta = "#d6336c"
+brown = "#8a3d1f"
+
+bright_red = "#ff4d4d"
+bright_yellow = "#ffe066"
+bright_green = "#6fd68f"
+bright_cyan = "#86dcea"
+bright_blue = "#7aa6f0"
+bright_magenta = "#f06292"
