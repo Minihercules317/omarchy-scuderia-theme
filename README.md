@@ -35,7 +35,14 @@ screens don't cut it off. Cycle wallpapers with `omarchy theme bg next`.
 
 ### Photo credits
 
-All photos were cropped and scaled to 2560x1600. Nothing else was changed.
+All photos were cropped and scaled to 2560x1600. Nothing else was changed. The
+cropped versions are shared under the same licence as their originals.
+
+The licences cover the photographers' copyright only. The cars carry Ferrari and
+sponsor trademarks, and the photos show identifiable people, which the licences don't
+clear. The photo of `07-zandvoort-2024.jpg` was taken under FIA accreditation, and
+its Commons page notes that FIA clears trademark and personality rights for
+editorial use only. Use these photos as personal wallpapers, not commercially.
 
 | File | Photographer | Licence | Source |
 |------|--------------|---------|--------|
@@ -78,6 +85,7 @@ The shipped PNGs also have a light grain pass:
 ## License
 
 - Theme files, `src/wallpapers.py` and wallpapers 01–03: MIT, see [LICENSE](LICENSE).
+- `unlock.png`: the Omarchy logo, recoloured. MIT, © David Heinemeier Hansson.
 - Photos 04–09: each under its own Creative Commons licence, listed in the table above.
 - Fonts: SIL Open Font License, see `fonts/OFL-TitilliumWeb.txt`.
 
