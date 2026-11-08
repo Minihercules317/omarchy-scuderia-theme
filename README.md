@@ -6,8 +6,8 @@ accent, with Yaru-red icons. Window borders run from red into yellow.
 
 ![Preview](preview.png)
 
-> **Made with AI.** Claude (Anthropic) wrote this theme: the colours, the wallpaper
-> generator script and this README. Minihercules317 came up with the idea, chose the
+> **Made with AI.** Claude (Anthropic) made this theme: the colours, wallpapers
+> 01–03 (drawn by a script Claude wrote) and this README. Minihercules317 came up with the idea, chose the
 > photos, made the design choices and tested it on Omarchy.
 
 ## Install
@@ -20,7 +20,7 @@ Or go to Omarchy menu > Install > Style > Theme and paste the URL. To switch to 
 
 ## Wallpapers
 
-Wallpapers 01–03 are original art drawn by `src/wallpapers.py`. They don't use any
+Wallpapers 01–03 are original art, drawn as vector graphics by a script. They don't use any
 official logos (no prancing horse, no team wordmark).
 
 1. `sedici`: Leclerc's #16 on carbon fibre
@@ -71,21 +71,10 @@ To go back to the default font:
 
     omarchy font set "JetBrainsMono Nerd Font"
 
-## Regenerating the wallpapers
-
-The script needs Titillium Web visible to fontconfig. Either install it as above, or
-point `FONTCONFIG_FILE` at a config that includes `fonts/`.
-
-    python3 src/wallpapers.py sedici > sedici.svg   # or: monaco, livery
-    rsvg-convert sedici.svg -o sedici.png
-
-The shipped PNGs also have a light grain pass:
-`magick in.png -attenuate 0.25 +noise Gaussian out.png`.
-
 ## License
 
-- Theme files, `src/wallpapers.py` and wallpapers 01–03: MIT, see [LICENSE](LICENSE).
-- `unlock.png`: the Omarchy logo, recoloured. MIT, © David Heinemeier Hansson.
+- Theme files and wallpapers 01–03: MIT, see [LICENSE](LICENSE).
+- `unlock.png` and `preview-unlock.png`: the Omarchy logo, recoloured. MIT, © David Heinemeier Hansson.
 - Photos 04–09: each under its own Creative Commons licence, listed in the table above.
 - Fonts: SIL Open Font License, see `fonts/OFL-TitilliumWeb.txt`.
 
