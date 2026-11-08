@@ -7,8 +7,8 @@ accent, with Yaru-red icons. Window borders run from red into yellow.
 ![Preview](preview.png)
 
 > **Made with AI.** Claude (Anthropic) made this theme: the colours, wallpapers
-> 01–03 (drawn by a script Claude wrote) and this README. Minihercules317 came up with the idea, chose the
-> photos, made the design choices and tested it on Omarchy.
+> 01–03 (drawn by a script Claude wrote) and this README. Minihercules317 came up
+> with the idea, chose the photos, made the design choices and tested it on Omarchy.
 
 ## Install
 
